@@ -6,11 +6,10 @@
     "url": "https://github.com/rafaelcamargo/ng-surprise"
   },
   "devDependencies": {
-    "angular": "1.3.17",
-    "angular-mocks": "1.3.17",
+    "angular": "^1.4.1",
+    "angular-mocks": "^1.4.1",
     "grunt": "^0.4.5",
     "grunt-cli": "~v0.1.13",
-    "grunt-concat-in-order": "^0.1.6",
     "grunt-contrib-jshint": "^0.11.2",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "~0.6.1",
@@ -21,7 +20,6 @@
     "karma-cli": "0.0.4",
     "karma-coverage": "~0.3.1",
     "karma-jasmine": "~0.3.5",
-    "karma-ng-html2js-preprocessor": "^0.1.2",
     "karma-phantomjs-launcher": "~0.1.4",
     "phantomjs": "^1.9.17"
   }
