@@ -1,20 +1,17 @@
 describe('ng-surprise', function(){
 
-	var scope, surpriseController;
+	var $scope, surpriseController;
 	
-	beforeEach(function(){
-    module('ngSurprise');
-  });
+  beforeEach(module('ngSurprise'));
 
   beforeEach(inject(function($rootScope, $controller){
-  	scope = $rootScope.$new();
+  	$scope = $rootScope.$new();
     surpriseController = $controller('surpriseController', {
-      $scope : scope
+      $scope : $scope
     });
   }));
 
   it('should be test working', function(){
-  	console.log(surpriseController);
     expect($scope).toBeDefined();
   });
 
