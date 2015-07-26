@@ -5,7 +5,10 @@ This is a AngularJS module to put easter eggs in your application. Sometimes you
 You can see ng-surprise in action on http://rafaelcamargo.github.io/ng-surprise
 
 ## Installation
-Declare the *ngSurprise* module as your app dependency:
+```
+npm install angular-surprise --save
+```
+Once `angular-surprise` dependency is installed, declare the *ngSurprise* module as your app dependency:
 ```
 var app = angular.module('App', ['ngSurprise']);
 ```
