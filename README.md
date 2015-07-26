@@ -1,6 +1,9 @@
 # ng-surprise v0.1.0
 This is a AngularJS module to put easter eggs in your application. Sometimes you need a easter egg to allow your dev staff to skip some configuration step or close an *uncloseable* modal in your app. So, ng-surprise is a easy way to do that.
 
+## Demo
+You can see ng-surprise in action on http://rafaelcamargo.github.io/ng-surprise
+
 ## Installation
 Declare the *ngSurprise* module as your app dependency:
 ```
@@ -8,7 +11,7 @@ var app = angular.module('App', ['ngSurprise']);
 ```
 
 ## Usage
-In any place inside you application, you just need inform a trigger and a action to be performed:
+In any place inside you application, you just need inform an **action** and a **trigger** to be performed:
 ```
 <div data-surprise="showSomething" data-surprise-trigger="38,38,38,37"></div>
 ```
