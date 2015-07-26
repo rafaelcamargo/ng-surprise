@@ -1,0 +1,36 @@
+<h1>
+	ng-surprise
+</h1>
+
+<p>
+	Try ng-surprise typing the following keys:<br/>
+	<ul class="keys">
+		<li>↑</li>
+		<li>↑</li>
+		<li>↓</li>
+		<li>↓</li>
+		<li>←</li>
+		<li>→</li>
+		<li>←</li>
+		<li>→</li>
+		<li>a</li>
+		<li>b</li>
+	</ul>
+</p>
+
+<div
+	data-surprise="setMessage"
+	data-surprise-trigger="38,38,40,40,37,39,37,39,65,66">
+	<p ng-class="{'surprise': message}"
+		class="vertical-offset"
+		ng-bind="message"></p>
+</div>
+
+<p class="vertical-offset">
+	<a href="http://github.com/rafaelcamargo/ng-surprise">Fork me</a> on Github.
+	<br/>
+	© <span ng-bind="year"></span> Rafael Camargo
+	(<a href="http://twitter.com/rcamargo" target="_blank">@rcamargo</a>)
+	<br/>
+	License: MIT
+</p>
