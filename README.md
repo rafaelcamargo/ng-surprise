@@ -6,9 +6,9 @@ You can see ng-surprise in action on http://rafaelcamargo.github.io/ng-surprise
 
 ## Installation
 ```
-npm install angular-surprise --save
+npm install ng-surprise --save
 ```
-Once `angular-surprise` dependency is installed, declare the *ngSurprise* module as your app dependency:
+Once `ng-surprise` dependency is installed, declare the *ngSurprise* module as your app dependency:
 ```
 var app = angular.module('App', ['ngSurprise']);
 ```
@@ -30,7 +30,7 @@ $scope.showSomething = function(){
 ```
 
 ### Trigger
-Should be a sequence of keycodes to be performed by the user. It's not an Array. It should be necessarily a String with keycodes separeted by comma with no spaces between keycodes and commas. The event attribute responsible to inform which code user has performed is `keydown`. You can easily discover the keycodes you want to use in your trigger on the following page: http://www.w3.org/2002/09/tests/keys.html
+Should be a sequence of keycodes to be performed by the user. It's not an Array. It should be necessarily a String with keycodes separeted by comma with no spaces between them. The event attribute responsible to inform which code user has performed is `keydown`. You can easily discover the keycodes you want to use as your trigger on the following page: http://www.w3.org/2002/09/tests/keys.html
 
 ## Release History
-- 2015/07/26 **v0.1.0** : Initial release *tests still in progress*
+- 2015/07/29 **v0.1.0** : Initial release *tests still in progress*
