@@ -74,7 +74,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [
     'jshint',
-    //'karma'
+    'karma'
   ]);
 
   grunt.registerTask('start', [
