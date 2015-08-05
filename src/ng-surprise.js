@@ -1,18 +1,18 @@
 angular.module('ngSurprise',[]).controller('surpriseController',
   ['$scope', function($scope){
 
-    var sequence = [];
+    $scope.sequence = [];
 
     function storeKey(event){
-      sequence.push(event.keyCode.toString());
+      $scope.sequence.push(event.keyCode.toString());
       checkSequenceLength();
       checkSurprise();
     }
 
     function checkSequenceLength(){
       var triggerLength = $scope.surpriseTrigger.split(',').length;
-      if(sequence.length > triggerLength)
-        sequence.shift();
+      if($scope.sequence.length > triggerLength)
+        $scope.sequence.shift();
     }
 
     function checkSurprise(){
@@ -23,7 +23,7 @@ angular.module('ngSurprise',[]).controller('surpriseController',
     function hasSequenceMatchedSurpriseTrigger(){
       var triggerSequence = $scope.surpriseTrigger.split(',');
       for (var i = 0; i < triggerSequence.length; i++)
-        if(triggerSequence[i] !== sequence[i])
+        if(triggerSequence[i] !== $scope.sequence[i])
           return false;
       return true;
     }
