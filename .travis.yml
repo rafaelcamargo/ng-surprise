@@ -4,7 +4,7 @@ node_js:
   - 0.10.25
 
 install:
-  - npm install -g karma karma-cli grunt-cli
+  - npm install -g karma karma-cli grunt-cli istanbul
   - npm install
 
 script:
