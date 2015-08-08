@@ -19,12 +19,9 @@
     "karma": "^0.12.36",
     "karma-cli": "0.0.4",
     "karma-coverage": "~0.3.1",
+    "karma-coveralls": "~1.1.2",
     "karma-jasmine": "~0.3.5",
     "karma-phantomjs-launcher": "~0.1.4",
-    "phantomjs": "^1.9.17",
-    "coveralls": "~2.11.3"
-  },
-  "scripts": {
-    "postinstall": "istanbul cover jasmine-node --captureExceptions spec/ && cat ./coverage/report-lcov/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "phantomjs": "^1.9.17"
   }
 }
