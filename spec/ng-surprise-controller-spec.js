@@ -22,7 +22,7 @@ describe('ng-surprise-controller', function(){
 
     $scope.surprise = function(){
       wasSurpriseExecuted = true;
-    }
+    };
 
     $scope.surpriseTrigger = '38,38,37';
   }));
@@ -56,6 +56,6 @@ describe('ng-surprise-controller', function(){
     keydown(41);
     expect($scope.sequence.length).toEqual(3);
     expect($scope.sequence[0]).toEqual('39');
-  })
+  });
 
 });
