@@ -11,4 +11,4 @@ script:
   - grunt build
 
 after_script:
-  - CODECLIMATE_REPO_TOKEN=28e9108906f31176abbf29b2aa3ded9f43d61ba0313f9f64a4085249ba2b6ab2 codeclimate < coverage/report-lcov/lcov.info
+  - CODECLIMATE_REPO_TOKEN=28e9108906f31176abbf29b2aa3ded9f43d61ba0313f9f64a4085249ba2b6ab2 codeclimate-test-reporter < ./coverage/report-lcov/lcov.info
