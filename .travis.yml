@@ -4,8 +4,11 @@ node_js:
   - 0.10.25
 
 install:
-  - npm install -g karma karma-cli grunt-cli istanbul
+  - npm install -g karma karma-cli grunt-cli codeclimate-test-reporter
   - npm install
 
 script:
   - grunt build
+
+after_script:
+  - CODECLIMATE_REPO_TOKEN=28e9108906f31176abbf29b2aa3ded9f43d61ba0313f9f64a4085249ba2b6ab2 codeclimate < coverage/report-lcov/lcov.info
