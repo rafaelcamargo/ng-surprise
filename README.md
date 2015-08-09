@@ -4,7 +4,7 @@
 [![Test Coverage](https://codeclimate.com/github/rafaelcamargo/ng-surprise/badges/coverage.svg)](https://codeclimate.com/github/rafaelcamargo/ng-surprise/coverage)
 [![Build Status](https://travis-ci.org/rafaelcamargo/ng-surprise.svg?branch=master)](https://travis-ci.org/rafaelcamargo/ng-surprise)
 
-This is a AngularJS module to put easter eggs in your application. Sometimes you need a easter egg to allow your dev staff to skip some configuration step or close an *uncloseable* modal in your app. So, ng-surprise is a easy way to do that.
+This is a AngularJS module to put Easter eggs in your application. Sometimes you need an Easter egg to allow your dev staff to skip some *configuration step* or close an *uncloseable* modal in your app. So, ng-surprise is an easy way to do that.
 
 ## Demo
 You can see ng-surprise in action on http://rafaelcamargo.github.io/ng-surprise
