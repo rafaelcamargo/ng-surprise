@@ -25,7 +25,7 @@ Wherever in your application, you can inform an **action** and a **trigger** to 
 ```
 
 ### Action
-Should be a function in your controller:
+Should be a function in your scope:
 ```
 ...
 $scope.showSomething = function(){
