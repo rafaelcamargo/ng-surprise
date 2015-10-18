@@ -14,24 +14,22 @@ You can see ng-surprise in action on http://rafaelcamargo.github.io/ng-surprise
 npm install ng-surprise --save
 ```
 Once `ng-surprise` dependency is installed, declare the *ngSurprise* module as your app dependency:
-```
+```javascript
 var app = angular.module('App', ['ngSurprise']);
 ```
 
 ## Usage
 Wherever in your application, you can inform an **action** and a **trigger** to be performed:
-```
+```html
 <div data-surprise="showSomething" data-surprise-trigger="38,38,38,37"></div>
 ```
 
 ### Action
 Should be a function in your scope:
-```
-...
+```javascript
 $scope.showSomething = function(){
   alert('Gotcha!');
 };
-...
 ```
 
 ### Trigger
