@@ -4,7 +4,7 @@
   "main": "./dist/ng-surprise.min.js",
   "version": "1.0.1",
   "authors": [
-    "Thiago Sampaio <thiago.sampaio@conductor.com.br>"
+    "Rafael Camargo <hello@rafaelcamargo.com>"
   ],
   "keywords": [
     "Angular Egg",
@@ -20,7 +20,7 @@
     "Genoveus"
 ],  
   "license": "MIT",
-  "homepage": "https://github.com/thiagonego/ng-surprise",
+  "homepage": "https://github.com/rafaelcamargo/ng-surprise",
   "ignore": [
     ".jshintrc",
     ".travis.yml",
