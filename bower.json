@@ -1,0 +1,61 @@
+{
+  "name": "ng-surprise",
+  "description": "An easy way to put Easter eggs in your AngularJS application",
+  "main": "./dist/ng-surprise.min.js",
+  "version": "1.0.1",
+  "authors": [
+    "Thiago Sampaio <thiago.sampaio@conductor.com.br>"
+  ],
+  "keywords": [
+    "Angular Egg",
+    "ngEgg",
+    "AngularJS",
+    "Angular",
+    "Angular Easter Egg",
+    "egg.js",
+    "JavaScript",
+    "Component",
+    "Components",
+    "Scriptwerx",
+    "Genoveus"
+],  
+  "license": "MIT",
+  "homepage": "https://github.com/thiagonego/ng-surprise",
+  "ignore": [
+    ".jshintrc",
+    ".travis.yml",
+    ".gitignore",
+    "package.json",
+    "gulpfile.js",
+    "*.iml",
+    "**/*.md",
+    "bin",
+    "docs",
+    "src",
+    "lib",
+    "test",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8"
+  },
+  "devDependencies": {
+    "angular": "^1.4.1",
+    "angular-mocks": "^1.4.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "~v0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-http-server": "^1.2.0",
+    "grunt-karma": "^0.11.0",
+    "jasmine-core": "~2.3.0",
+    "karma": "^0.12.36",
+    "karma-cli": "0.0.4",
+    "karma-coverage": "~0.3.1",
+    "karma-jasmine": "~0.3.5",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "phantomjs": "^1.9.17"
+  }  
+}
