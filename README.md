@@ -1,4 +1,4 @@
-# ng-surprise v0.2.0
+# ng-surprise
 
 [![Code Climate](https://codeclimate.com/github/rafaelcamargo/ng-surprise/badges/gpa.svg)](https://codeclimate.com/github/rafaelcamargo/ng-surprise)
 [![Test Coverage](https://codeclimate.com/github/rafaelcamargo/ng-surprise/badges/coverage.svg)](https://codeclimate.com/github/rafaelcamargo/ng-surprise/coverage)
