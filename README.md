@@ -36,5 +36,6 @@ $scope.showSomething = function(){
 Should be a sequence of keycodes to be performed by the user. It's not an Array. It should be necessarily a String with keycodes separeted by comma with no spaces between them. The event attribute responsible to inform which code user has performed is `keydown`. You can easily discover the keycodes you want to use as your trigger on the following page: http://www.w3.org/2002/09/tests/keys.html
 
 ## Release History
+- 2017/05/20 **v0.3.0** : Removed bower.json and locked angular on version 1.4.9
 - 2015/08/09 **v0.2.0** : Unit tests added
 - 2015/07/29 **v0.1.0** : Initial release *tests still in progress*
